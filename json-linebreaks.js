@@ -81,7 +81,7 @@ const usage = getUsage(sections);
  * A string is found (regex) => It is replaced with the same string injected with a line break.
  */
 const findString    = '\}\,\{';
-const replaceString = '}'+"\n"+',{';
+const replaceString = '},'+"\n"+'{';
 
 var fs = require('fs')
     , inFile = options['input']
@@ -110,6 +110,11 @@ if (inFile == undefined || (outFile == undefined && ! consoleOut && ! overwriteI
 
 if (!ready) {
     console.log(usage);
+}
+
+if ( overwriteInFile && ! outFile )
+{
+    outFile = inFile;
 }
 
 if (ready) {
