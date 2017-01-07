@@ -6,7 +6,7 @@
  *              This will not prettify your JSON.
  *              Primarily used for files with 1,000 or more records
  *
- * @example     node json-linebreaks.js ./test-read.json ./test-save.json
+ * @example     node json-linebreaks.js --input ./test-read.json --output ./test-save.json
  */
 
 const version = '0.0.1';
