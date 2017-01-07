@@ -1,0 +1,29 @@
+{
+  "name": "json-linebreaks",
+  "version": "0.0.1",
+  "author": {
+    "name": "nathanh0"
+  },
+  "description": "Injects line breaks to JSON string },{ to allow for streaming large JSON files.",
+  "keywords": [
+    "json",
+    "linebreak",
+    "line-break",
+    "line break"
+  ],
+  "main": "./json-linebreaks",
+  "dependencies": {
+    "command-line-args": "^3.0.5",
+    "command-line-usage": "^3.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nathanh0/json-linebreaks.git"
+  },
+  "license": "MIT License",
+  "engines": {
+    "node": ">=0.10.25"
+  },
+  "readmeFilename": "README.md",
+  "_id": "json-linebreaks@0.0.1"
+}
