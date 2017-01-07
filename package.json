@@ -1,6 +1,6 @@
 {
   "name": "json-linebreaks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "nathanh0"
   },
@@ -25,5 +25,5 @@
     "node": ">=0.10.25"
   },
   "readmeFilename": "README.md",
-  "_id": "json-linebreaks@0.0.1"
+  "_id": "json-linebreaks@0.0.2"
 }

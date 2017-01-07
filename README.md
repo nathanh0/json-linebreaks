@@ -4,7 +4,7 @@ Injects line breaks to JSON string },{ to allow for streaming large JSON files.
 ```
 $ node json-linebreaks
 
-json-linebreaks 0.0.1
+json-linebreaks 0.0.2
 
   Injects line breaks to JSON string },{ to allow for streaming large JSON files.
 

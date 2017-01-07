@@ -1,6 +1,6 @@
 /**
  * json-linebreaks
- * @version 0.0.1
+ * @version 0.0.2
  *
  * @description Add line breaks to arrays containing multiple rows.
  *              This will not prettify your JSON.
@@ -9,7 +9,7 @@
  * @example     node json-linebreaks.js --input ./test-read.json --output ./test-save.json
  */
 
-const version = '0.0.1';
+const version = '0.0.2';
 const clientArgs = require('command-line-args');
 const clientDefs = [
     { name: 'input', type: String },
